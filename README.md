@@ -3,17 +3,17 @@
 fork of [github/dundalek/react-blessed-contrib](https://github.com/dundalek/react-blessed-contrib)
 on npm [npm/react-blessed-contrib](https://www.npmjs.com/package/react-blessed-contrib)
 
-new release on [npm/alfu32/react-blessed-contrib-16](https://github.com/dundalek/react-blessed-contrib)
+new release on [npm/alfu32/react-blessed-contrib-17](https://www.npmjs.com/package/react-blessed-contrib-17)
 
 A wrapper for [blessed-contrib](https://github.com/yaronn/blessed-contrib) widgets to be rendered with [react-blessed](https://github.com/Yomguithereal/react-blessed).
 
 ## Installation
 
-You can install `react-blessed-contrib` through npm:
+You can install `react-blessed-contrib-17` through npm:
 
 ```bash
 npm install react blessed react-blessed
-npm install react-blessed-contrib
+npm install react-blessed-contrib-17
 ```
 
 ## Demo
@@ -21,7 +21,7 @@ npm install react-blessed-contrib
 For a quick demo you can clone this repository and check some of the examples:
 
 ```bash
-git clone https://github.com/dundalek/react-blessed-contrib
+git clone https://github.com/alfu32/react-blessed-contrib
 cd react-blessed-contrib
 npm install
 
@@ -46,7 +46,7 @@ Import components and render with React. You can mix them with native react-bles
 import React, { Component } from 'react';
 import blessed from 'blessed';
 import { render } from 'react-blessed';
-import { Bar } from 'react-blessed-contrib';
+import { Bar } from 'react-blessed-contrib-17';
 
 // Rendering a simple centered box with a bar chart
 class App extends Component {
@@ -87,7 +87,7 @@ const component = render(<App />, screen);
 Pass in children components to use a grid layout:
 
 ```js
-import { Grid, Map } from 'react-blessed-contrib';
+import { Grid, Map } from 'react-blessed-contrib-17';
 
 <Grid rows={12} cols={12}>
   <Map row={0} col={0} rowSpan={4} colSpan={4} label="World Map" />
@@ -98,7 +98,7 @@ import { Grid, Map } from 'react-blessed-contrib';
 If you don't specify `rowSpan` or `colSpan` then `1` is used as a default:
 
 ```js
-import { Grid, Map } from 'react-blessed-contrib';
+import { Grid, Map } from 'react-blessed-contrib-17';
 
 <Grid rows={1} cols={2}>
   <Map col={0} label="World Map" />
@@ -109,7 +109,7 @@ import { Grid, Map } from 'react-blessed-contrib';
 In case there would be name conflicts with props (`row`, `col`, `rowSpan`, `colSpan`), you can use alternative notation:
 
 ```js
-import { Grid, GridItem, Map } from 'react-blessed-contrib';
+import { Grid, GridItem, Map } from 'react-blessed-contrib-17';
 
 <Grid rows={12} cols={12}>
   <GridItem row={0} col={0} rowSpan={4} colSpan={4} component={Map} options={{label: 'World Map'}} />
@@ -122,7 +122,7 @@ import { Grid, GridItem, Map } from 'react-blessed-contrib';
 Pass in subcomponents as children. Refer to `examples/carousel.js` for full example.
 
 ```js
-import { Carousel } from 'react-blessed-contrib';
+import { Carousel } from 'react-blessed-contrib-17';
 
 <Carousel interval={3000} controlKeys={true} screen={screen}>
   <Page1 />
@@ -142,7 +142,7 @@ You can wrap it in a component and use like:
 ```js
 import React from 'react';
 import { render } from 'react-blessed';
-import { createBlessedComponent } = 'react-blessed-contrib';
+import { createBlessedComponent } = 'react-blessed-contrib-17';
 
 const MyBlessedWidget = createBlessedComponent(myBlessedWidget);
 
