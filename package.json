@@ -32,9 +32,9 @@
     "lodash.upperfirst": "^4.3.1"
   },
   "peerDependencies": {
-    "blessed": "0.1.x",
-    "react-blessed": "0.2.x",
-    "react": "16.x"
+    "blessed": "^0.1.x",
+    "react-blessed": "^0.2.x",
+    "react": "^16.x"
   },
   "devDependencies": {
     "blessed": "^0.1.81",
