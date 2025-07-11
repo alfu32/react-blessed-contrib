@@ -1,5 +1,10 @@
 # react-blessed-contrib
 
+fork of [github/dundalek/react-blessed-contrib](https://github.com/dundalek/react-blessed-contrib)
+on npm [npm/react-blessed-contrib](https://www.npmjs.com/package/react-blessed-contrib)
+
+new release on [npm/alfu32/react-blessed-contrib-16](https://github.com/dundalek/react-blessed-contrib)
+
 A wrapper for [blessed-contrib](https://github.com/yaronn/blessed-contrib) widgets to be rendered with [react-blessed](https://github.com/Yomguithereal/react-blessed).
 
 ## Installation
